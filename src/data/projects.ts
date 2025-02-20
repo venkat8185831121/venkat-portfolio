@@ -23,25 +23,26 @@ export const projectsData: ProjectItem[] = [
       impact: "Reduced meeting scheduling time by 80% for users",
     },
   },
-  
   {
-    title: "Calclumate",
-    description: "A minimalist Calclulation app for investor",
-    image: "calclumate.png",
-    tech: ["Next.js", "Tailwind CSS", "Supabase"],
-    github: "https://github.com/venkat8185831121/calcumate-visualizer.git",
-    live: "https://calclumate.netlify.app/",
+    title: "Zcrum",
+    description: "A Jira-inspired project management solution",
+    image: "zcrum.png",
+    tech: ["React", "Redux", "Node.js", "PostgreSQL"],
+    github: "https://github.com/venkat8185831121/zcrum.git",
+    live: "https://zcrum-bice.vercel.app/",
     details: {
-      problem: "Digital calclulation  are often cluttered and complex",
+      problem: "Need for a simplified project management tool for small teams",
       solution:
-        "Created a clean, focused chats with powerful features",
+        "Developed a streamlined alternative to complex enterprise tools",
       features: [
-        "Market support",
-        "udeful insights",
-        "investment tracking",
-        "Privacy-focused design",
+        "Kanban and Scrum boards",
+        "Sprint planning",
+        "Time tracking",
+        "Performance analytics",
       ],
-      impact: "Helping users maintain consistent investments",
+      impact: "Helping teams increase productivity by 40%",
     },
   },
+  
+ 
 ];
