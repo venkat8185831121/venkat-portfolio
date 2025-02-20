@@ -23,6 +23,28 @@ export const projectsData: ProjectItem[] = [
       impact: "Reduced meeting scheduling time by 80% for users",
     },
   },
+  
+  {
+    title: "Reflct",
+    description: "A minimalist journaling application",
+    image: "reflct.png",
+    tech: ["Next.js", "Tailwind CSS", "Supabase"],
+    github: "https://github.com/venkat8185831121/reflct.git",
+    live: "https://reflctt-delta.vercel.app/",
+    details: {
+      problem: "Digital journaling apps are often cluttered and complex",
+      solution:
+        "Created a clean, focused writing experience with powerful features",
+      features: [
+        "Markdown support",
+        "Daily prompts",
+        "Mood tracking",
+        "Privacy-focused design",
+      ],
+      impact: "Helping users maintain consistent journaling habits",
+    },
+  },
+
   {
     title: "Zcrum",
     description: "A Jira-inspired project management solution",
@@ -43,6 +65,24 @@ export const projectsData: ProjectItem[] = [
       impact: "Helping teams increase productivity by 40%",
     },
   },
-  
- 
+  {
+    title: "Calclumate",
+    description: "A minimalist Calclulation app for investor",
+    image: "calclumate.png",
+    tech: ["Next.js", "Tailwind CSS", "Supabase"],
+    github: "https://github.com/venkat8185831121/calcumate-visualizer.git",
+    live: "https://calclumate.netlify.app/",
+    details: {
+      problem: "Digital calclulation  are often cluttered and complex",
+      solution:
+        "Created a clean, focused chats with powerful features",
+      features: [
+        "Market support",
+        "udeful insights",
+        "investment tracking",
+        "Privacy-focused design",
+      ],
+      impact: "Helping users maintain consistent investments",
+    },
+  }, 
 ];
