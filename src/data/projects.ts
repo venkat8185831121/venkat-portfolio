@@ -7,7 +7,7 @@ export const projectsData: ProjectItem[] = [
     title: "Schedulrr",
     description: "A Calendly clone for seamless meeting scheduling",
     image: "schedulrr.png",
-    tech: ["Next.js", "TypeScript", "Prisma", "tRPC"],
+    tech: ["Next.js", "TypeScript", "Prisma", "clerk"],
     github: "https://github.com/venkat8185831121/SCHEDULRR.git",
     live: "https://schedulrr-seven.vercel.app/",
     details: {
@@ -44,7 +44,27 @@ export const projectsData: ProjectItem[] = [
       impact: "Helping users maintain consistent journaling habits",
     },
   },
-
+  {
+    title: "Calclumate",
+    description: "A minimalist Calclulation app for investor",
+    image: "calclumate.png",
+    tech: ["Next.js", "Tailwind CSS", "clerk"],
+    github: "https://github.com/venkat8185831121/calcumate-visualizer.git",
+    live: "https://calclumate.netlify.app/",
+    details: {
+      problem: "Digital calclulation  are often cluttered and complex",
+      solution:
+        "Created a clean, focused chats with powerful features",
+      features: [
+        "Market support",
+        "useful insights",
+        "investment tracking",
+        "Privacy-focused design",
+      ],
+      impact: "Helping users maintain consistent investments",
+    },
+  }, 
+  
   {
     title: "Zcrum",
     description: "A Jira-inspired project management solution",
@@ -65,24 +85,5 @@ export const projectsData: ProjectItem[] = [
       impact: "Helping teams increase productivity by 40%",
     },
   },
-  {
-    title: "Calclumate",
-    description: "A minimalist Calclulation app for investor",
-    image: "calclumate.png",
-    tech: ["Next.js", "Tailwind CSS", "Supabase"],
-    github: "https://github.com/venkat8185831121/calcumate-visualizer.git",
-    live: "https://calclumate.netlify.app/",
-    details: {
-      problem: "Digital calclulation  are often cluttered and complex",
-      solution:
-        "Created a clean, focused chats with powerful features",
-      features: [
-        "Market support",
-        "udeful insights",
-        "investment tracking",
-        "Privacy-focused design",
-      ],
-      impact: "Helping users maintain consistent investments",
-    },
-  }, 
+  
 ];
